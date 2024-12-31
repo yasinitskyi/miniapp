@@ -23,7 +23,7 @@ function App() {
 					{count} Nigger{count > 1 ? "s" : ""}
 				</Button>
 				<Button
-					onClick={() => window.open("https://www.youtube.com/", "_blank")}
+					onClick={() => window.open("https://www.youtube.com/", "_self")}
 				>
 					Redirect to outer site
 				</Button>
