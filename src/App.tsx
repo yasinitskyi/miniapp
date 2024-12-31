@@ -20,7 +20,12 @@ function App() {
 			<h1>Vite + React</h1>
 			<div className="card">
 				<Button onClick={() => setCount((count) => count + 1)}>
-          {count} Nigger{count > 1 ? 's' : ''}
+					{count} Nigger{count > 1 ? "s" : ""}
+				</Button>
+				<Button
+					onClick={() => window.open("https://www.youtube.com/", "_blank")}
+				>
+					Redirect to outer site
 				</Button>
 				<p>
 					Edit <code>src/App.tsx</code> and save to test HMR
